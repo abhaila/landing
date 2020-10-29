@@ -1,0 +1,43 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/*banner*/
+@import url('components/banner.css');
+
+/*navbar*/
+@import url('components/navbar.css');
+
+/*cards*/
+@import url('components/cards.css');
+
+/*footer*/
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  font: 14px/20px nhp,sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: nhp, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: nhp, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+

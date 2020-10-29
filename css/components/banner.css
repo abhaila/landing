@@ -1,0 +1,53 @@
+/*banner here*/
+.banner {
+  width: 100%;
+  background-position: center;
+  object-fit: cover;
+  padding: 100px 20px;
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+    url(https://www.datocms-assets.com/12893/1560984901-canyonlake.jpg?auto=compress%2Cformat&dpr=1&fit=clip&w=900),
+    url(https://www.datocms-assets.com/12893/1560993059-bocaraton.jpg?auto=compress%2Cformat&dpr=1&fit=clip&w=900);
+  background-repeat: no-repeat;
+  background-position:
+    top left, /* this positions the first image */
+    bottom right; /* this positions the second image */
+  background-size:
+    50% auto,
+    50% auto;
+  margin-bottom: 50px;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn-flat {
+  color: black;
+  background-color: white;
+  padding: 8px 24px;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  color: rgb(0, 12, 46);
+  background-color: white;
+  border: solid white;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
